@@ -3,43 +3,43 @@
     "name": "gemini",
     "alive": true,
     "http_code": 200,
-    "latency_ms": 7899.834159999955,
+    "latency_ms": 3391.551544000002,
     "model": "gemini-2.5-flash",
     "error": "",
     "note": ""
   },
   {
     "name": "kilo",
-    "alive": false,
-    "http_code": 429,
-    "latency_ms": 502.98696599929826,
-    "model": "",
-    "error": "{\"error\":{\"message\":\"Rate limit exceeded: minimax/minimax-m3-20260531/3e7a48d4-53e2-4fff-92ce-9fd7839edc13. High demand for minimax/minimax-m3:free on OpenRouter - limited to 30 requests per minute. P",
+    "alive": true,
+    "http_code": 200,
+    "latency_ms": 2747.617851000001,
+    "model": "minimax/minimax-m3:free",
+    "error": "",
     "note": ""
   },
   {
     "name": "zen",
     "alive": false,
-    "http_code": 429,
-    "latency_ms": 1022.9349639994325,
-    "model": "",
-    "error": "{\"type\":\"error\",\"error\":{\"type\":\"FreeUsageLimitError\",\"message\":\"Error from provider (Console): Rate limit exceeded. Please try again later.\"}}",
+    "http_code": 200,
+    "latency_ms": 6546.169204999998,
+    "model": "big-pickle",
+    "error": "",
     "note": ""
   },
   {
     "name": "ovh",
     "alive": false,
     "http_code": 429,
-    "latency_ms": 615.6048470002133,
+    "latency_ms": 1030.7005290000006,
     "model": "",
-    "error": "{\n  \"message\":\"API rate limit exceeded\",\n  \"request_id\":\"0670373b55cf9e3d0210a0335e6ae907\"\n}",
+    "error": "{\n  \"message\":\"API rate limit exceeded\",\n  \"request_id\":\"9125dd1890eeb60c25b1250541145673\"\n}",
     "note": ""
   },
   {
     "name": "llm7",
     "alive": true,
     "http_code": 200,
-    "latency_ms": 615.0337750004837,
+    "latency_ms": 3361.3330649999966,
     "model": "minimax-m2.7",
     "error": "",
     "note": ""
@@ -48,7 +48,7 @@
     "name": "aihorde",
     "alive": false,
     "http_code": 200,
-    "latency_ms": 553.9521840000816,
+    "latency_ms": 568.6141140000061,
     "model": "",
     "error": "no text models available",
     "note": "alive for images only"
@@ -57,7 +57,7 @@
     "name": "ollama-cloud",
     "alive": false,
     "http_code": 401,
-    "latency_ms": 365.38808700061054,
+    "latency_ms": 119.69143600000365,
     "model": "",
     "error": "{\"error\":{\"message\":\"Unauthorized\",\"type\":\"api_error\",\"param\":null,\"code\":null}}\n",
     "note": "requires API key"
@@ -66,7 +66,7 @@
     "name": "pollinations",
     "alive": false,
     "http_code": 200,
-    "latency_ms": 716.5806140001223,
+    "latency_ms": 538.4872150000035,
     "model": "",
     "error": "HTTP 200",
     "note": ""
@@ -75,7 +75,7 @@
     "name": "perplexity",
     "alive": false,
     "http_code": 403,
-    "latency_ms": 50.10548199970799,
+    "latency_ms": 93.68109200000418,
     "model": "",
     "error": "<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\"><meta http-equiv=\"X-UA-Compatible\" content=\"IE=Edge\"><meta nam",
     "note": "Cloudflare-gated"
