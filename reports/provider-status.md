@@ -1,33 +1,31 @@
 # Provider Status Report
 
-_Generated: 2026-09-05 14:35:44 UTC_
+_Generated: 2026-09-07 11:18:09 UTC_
 
 ## Resident Providers
 
 | Provider | Alive | HTTP | Latency | Model | Error |
 |----------|-------|------|---------|-------|-------|
-| gemini | ✅ | 200 | 3392ms | gemini-2.5-flash |  |
-| kilo | ✅ | 200 | 2748ms | minimax/minimax-m3:free |  |
-| zen | ❌ | 200 | 6546ms | big-pickle |  |
-| ovh | ❌ | 429 | 1031ms |  | {
-  "message":"API rate limit exceeded",
-  "request_id":"9125dd1890eeb60c25b1250 |
-| llm7 | ✅ | 200 | 3361ms | minimax-m2.7 |  |
+| gemini | ✅ | 200 | 3151ms | gemini-2.5-flash |  |
+| kilo | ✅ | 200 | 1079ms | minimax/minimax-m3:free |  |
+| zen | ❌ | 400 | 363ms |  | {"type":"error","error":{"type":"MissingSessionID","message":"Error from provide |
+| ovh | ✅ | 200 | 1256ms | gpt-oss-20b |  |
+| llm7 | ✅ | 200 | 1942ms | minimax-m2.7 |  |
 
-> **⚠ 2 resident provider(s) are dead:** zen, ovh
+> **⚠ 1 resident provider(s) are dead:** zen
 
 
 ## Candidate Endpoints
 
 | Provider | Alive | HTTP | Latency | Model | Note |
 |----------|-------|------|---------|-------|------|
-| aihorde | ❌ | 200 | 569ms |  | alive for images only |
-| ollama-cloud | ❌ | 401 | 120ms |  | requires API key |
-| pollinations | ❌ | 200 | 538ms |  |  |
-| perplexity | ❌ | 403 | 94ms |  | Cloudflare-gated |
+| aihorde | ❌ | 200 | 379ms |  | alive for images only |
+| ollama-cloud | ❌ | 401 | 93ms |  | requires API key |
+| pollinations | ❌ | 200 | 445ms |  |  |
+| perplexity | ❌ | 403 | 60ms |  | Cloudflare-gated |
 
 ## Summary
 
-- Resident alive: **3/5**
+- Resident alive: **4/5**
 - Candidates tested: **4**
 - New anonymous providers found: **0**
