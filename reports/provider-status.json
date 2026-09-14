@@ -3,43 +3,43 @@
     "name": "gemini",
     "alive": true,
     "http_code": 200,
-    "latency_ms": 3151.215331000003,
+    "latency_ms": 4158.371881000001,
     "model": "gemini-2.5-flash",
     "error": "",
     "note": ""
   },
   {
     "name": "kilo",
-    "alive": true,
-    "http_code": 200,
-    "latency_ms": 1078.694301000006,
-    "model": "minimax/minimax-m3:free",
-    "error": "",
+    "alive": false,
+    "http_code": 404,
+    "latency_ms": 183.42604200000068,
+    "model": "",
+    "error": "{\"error\":\"The requested model 'minimax/minimax-m3:free' does not exist. Please use an exact model id as listed on /api/gateway/models. If this is a newly released model, please try again in a few minu",
     "note": ""
   },
   {
     "name": "zen",
     "alive": false,
     "http_code": 400,
-    "latency_ms": 362.8034180000057,
+    "latency_ms": 225.54872600000664,
     "model": "",
     "error": "{\"type\":\"error\",\"error\":{\"type\":\"MissingSessionID\",\"message\":\"Error from provider (Console): OpenCode's free tier can only be used in OpenCode\"}}",
     "note": ""
   },
   {
     "name": "ovh",
-    "alive": true,
-    "http_code": 200,
-    "latency_ms": 1256.3708759999984,
-    "model": "gpt-oss-20b",
-    "error": "",
+    "alive": false,
+    "http_code": 429,
+    "latency_ms": 1463.2210790000001,
+    "model": "",
+    "error": "{\n  \"message\":\"API rate limit exceeded\",\n  \"request_id\":\"af6974625d690e233890c939b56be01c\"\n}",
     "note": ""
   },
   {
     "name": "llm7",
     "alive": true,
     "http_code": 200,
-    "latency_ms": 1941.5090059999968,
+    "latency_ms": 5021.258814,
     "model": "minimax-m2.7",
     "error": "",
     "note": ""
@@ -48,7 +48,7 @@
     "name": "aihorde",
     "alive": false,
     "http_code": 200,
-    "latency_ms": 378.72698200000343,
+    "latency_ms": 498.50637100000483,
     "model": "",
     "error": "no text models available",
     "note": "alive for images only"
@@ -57,7 +57,7 @@
     "name": "ollama-cloud",
     "alive": false,
     "http_code": 401,
-    "latency_ms": 92.7953610000003,
+    "latency_ms": 154.99431399999963,
     "model": "",
     "error": "{\"error\":{\"message\":\"Unauthorized\",\"type\":\"api_error\",\"param\":null,\"code\":null}}\n",
     "note": "requires API key"
@@ -66,7 +66,7 @@
     "name": "pollinations",
     "alive": false,
     "http_code": 200,
-    "latency_ms": 444.8055619999991,
+    "latency_ms": 575.3234259999971,
     "model": "",
     "error": "HTTP 200",
     "note": ""
@@ -75,7 +75,7 @@
     "name": "perplexity",
     "alive": false,
     "http_code": 403,
-    "latency_ms": 59.85526000000618,
+    "latency_ms": 70.6311750000026,
     "model": "",
     "error": "<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\"><meta http-equiv=\"X-UA-Compatible\" content=\"IE=Edge\"><meta nam",
     "note": "Cloudflare-gated"
