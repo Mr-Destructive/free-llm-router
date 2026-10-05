@@ -1,18 +1,18 @@
 # Provider Status Report
 
-_Generated: 2026-09-28 12:41:46 UTC_
+_Generated: 2026-10-05 13:17:45 UTC_
 
 ## Resident Providers
 
 | Provider | Alive | HTTP | Latency | Model | Error |
 |----------|-------|------|---------|-------|-------|
-| gemini | ✅ | 200 | 281247ms | gemini-2.5-flash |  |
-| kilo | ❌ | 404 | 413ms |  | {"error":"The requested model 'minimax/minimax-m3:free' does not exist. Please u |
-| zen | ❌ | 403 | 307ms |  | {"type":"error","error":{"type":"FreeTierError","message":"Error from provider ( |
-| ovh | ❌ | 429 | 1343ms |  | {
+| gemini | ✅ | 200 | 4106ms | gemini-2.5-flash |  |
+| kilo | ❌ | 404 | 244ms |  | {"error":"The requested model 'minimax/minimax-m3:free' does not exist. Please u |
+| zen | ❌ | 403 | 210ms |  | {"type":"error","error":{"type":"FreeTierError","message":"Error from provider ( |
+| ovh | ❌ | 429 | 1038ms |  | {
   "message":"API rate limit exceeded",
-  "request_id":"36363f6b5cefeb397042552 |
-| llm7 | ✅ | 200 | 3442ms | minimax-m2.7 |  |
+  "request_id":"f784d300b674497818afd83 |
+| llm7 | ✅ | 200 | 5625ms | minimax-m2.7 |  |
 
 > **⚠ 3 resident provider(s) are dead:** kilo, zen, ovh
 
@@ -21,10 +21,10 @@ _Generated: 2026-09-28 12:41:46 UTC_
 
 | Provider | Alive | HTTP | Latency | Model | Note |
 |----------|-------|------|---------|-------|------|
-| aihorde | ❌ | 200 | 380ms |  | alive for images only |
-| ollama-cloud | ❌ | 401 | 303ms |  | requires API key |
-| pollinations | ❌ | 200 | 664ms |  |  |
-| perplexity | ❌ | 403 | 169ms |  | Cloudflare-gated |
+| aihorde | ❌ | 200 | 493ms |  | alive for images only |
+| ollama-cloud | ❌ | 401 | 154ms |  | requires API key |
+| pollinations | ❌ | 200 | 535ms |  |  |
+| perplexity | ❌ | 403 | 77ms |  | Cloudflare-gated |
 
 ## Summary
 
