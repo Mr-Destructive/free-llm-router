@@ -1,30 +1,28 @@
 # Provider Status Report
 
-_Generated: 2026-10-05 13:17:45 UTC_
+_Generated: 2026-10-12 14:07:37 UTC_
 
 ## Resident Providers
 
 | Provider | Alive | HTTP | Latency | Model | Error |
 |----------|-------|------|---------|-------|-------|
-| gemini | ✅ | 200 | 4106ms | gemini-2.5-flash |  |
-| kilo | ❌ | 404 | 244ms |  | {"error":"The requested model 'minimax/minimax-m3:free' does not exist. Please u |
-| zen | ❌ | 403 | 210ms |  | {"type":"error","error":{"type":"FreeTierError","message":"Error from provider ( |
-| ovh | ❌ | 429 | 1038ms |  | {
-  "message":"API rate limit exceeded",
-  "request_id":"f784d300b674497818afd83 |
-| llm7 | ✅ | 200 | 5625ms | minimax-m2.7 |  |
+| gemini | ✅ | 200 | 4008ms | gemini-2.5-flash |  |
+| kilo | ❌ | 404 | 1004ms |  | {"error":"The requested model 'minimax/minimax-m3:free' does not exist. Please u |
+| zen | ❌ | 403 | 167ms |  | {"type":"error","error":{"type":"FreeTierError","message":"OpenCode's free tier  |
+| ovh | ✅ | 200 | 1213ms | gpt-oss-20b |  |
+| llm7 | ❌ | 400 | 349ms |  | {"error":{"message":"Model 'minimax-m2.7' is currently unavailable.","type":"inv |
 
-> **⚠ 3 resident provider(s) are dead:** kilo, zen, ovh
+> **⚠ 3 resident provider(s) are dead:** kilo, zen, llm7
 
 
 ## Candidate Endpoints
 
 | Provider | Alive | HTTP | Latency | Model | Note |
 |----------|-------|------|---------|-------|------|
-| aihorde | ❌ | 200 | 493ms |  | alive for images only |
-| ollama-cloud | ❌ | 401 | 154ms |  | requires API key |
-| pollinations | ❌ | 200 | 535ms |  |  |
-| perplexity | ❌ | 403 | 77ms |  | Cloudflare-gated |
+| aihorde | ❌ | 200 | 486ms |  | alive for images only |
+| ollama-cloud | ❌ | 401 | 195ms |  | requires API key |
+| pollinations | ❌ | 200 | 501ms |  |  |
+| perplexity | ❌ | 403 | 41ms |  | Cloudflare-gated |
 
 ## Summary
 

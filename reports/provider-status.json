@@ -3,7 +3,7 @@
     "name": "gemini",
     "alive": true,
     "http_code": 200,
-    "latency_ms": 4106.431961999995,
+    "latency_ms": 4008.378028000003,
     "model": "gemini-2.5-flash",
     "error": "",
     "note": ""
@@ -12,7 +12,7 @@
     "name": "kilo",
     "alive": false,
     "http_code": 404,
-    "latency_ms": 244.46577199999808,
+    "latency_ms": 1004.4205089999991,
     "model": "",
     "error": "{\"error\":\"The requested model 'minimax/minimax-m3:free' does not exist. Please use an exact model id as listed on /api/gateway/models. If this is a newly released model, please try again in a few minu",
     "note": ""
@@ -21,34 +21,34 @@
     "name": "zen",
     "alive": false,
     "http_code": 403,
-    "latency_ms": 209.850160000002,
+    "latency_ms": 166.69533299999983,
     "model": "",
-    "error": "{\"type\":\"error\",\"error\":{\"type\":\"FreeTierError\",\"message\":\"Error from provider (Console): OpenCode's free tier can only be used from within OpenCode\"}}",
+    "error": "{\"type\":\"error\",\"error\":{\"type\":\"FreeTierError\",\"message\":\"OpenCode's free tier can only be used from within OpenCode\"}}",
     "note": ""
   },
   {
     "name": "ovh",
-    "alive": false,
-    "http_code": 429,
-    "latency_ms": 1038.4388720000004,
-    "model": "",
-    "error": "{\n  \"message\":\"API rate limit exceeded\",\n  \"request_id\":\"f784d300b674497818afd83065c30e35\"\n}",
+    "alive": true,
+    "http_code": 200,
+    "latency_ms": 1213.185163999995,
+    "model": "gpt-oss-20b",
+    "error": "",
     "note": ""
   },
   {
     "name": "llm7",
-    "alive": true,
-    "http_code": 200,
-    "latency_ms": 5625.0957720000015,
-    "model": "minimax-m2.7",
-    "error": "",
+    "alive": false,
+    "http_code": 400,
+    "latency_ms": 349.3531230000002,
+    "model": "",
+    "error": "{\"error\":{\"message\":\"Model 'minimax-m2.7' is currently unavailable.\",\"type\":\"invalid_request_error\",\"param\":null,\"code\":\"model_unavailable\"}}",
     "note": ""
   },
   {
     "name": "aihorde",
     "alive": false,
     "http_code": 200,
-    "latency_ms": 493.04643800000036,
+    "latency_ms": 486.45955199999946,
     "model": "",
     "error": "no text models available",
     "note": "alive for images only"
@@ -57,7 +57,7 @@
     "name": "ollama-cloud",
     "alive": false,
     "http_code": 401,
-    "latency_ms": 154.19823199999882,
+    "latency_ms": 195.24730500000942,
     "model": "",
     "error": "{\"error\":{\"message\":\"Unauthorized\",\"type\":\"api_error\",\"param\":null,\"code\":null}}\n",
     "note": "requires API key"
@@ -66,7 +66,7 @@
     "name": "pollinations",
     "alive": false,
     "http_code": 200,
-    "latency_ms": 534.9690030000005,
+    "latency_ms": 501.0227329999992,
     "model": "",
     "error": "HTTP 200",
     "note": ""
@@ -75,7 +75,7 @@
     "name": "perplexity",
     "alive": false,
     "http_code": 403,
-    "latency_ms": 77.03256299999595,
+    "latency_ms": 40.518754000004265,
     "model": "",
     "error": "<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\"><meta http-equiv=\"X-UA-Compatible\" content=\"IE=Edge\"><meta nam",
     "note": "Cloudflare-gated"
